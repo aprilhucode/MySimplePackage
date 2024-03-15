@@ -14,7 +14,7 @@ public struct MySimplePackage {
         if !isApiKeyValid {
             print("Please provide a valid API key")
         }
-        return true
+        return isApiKeyValid
     }
 
     public static func logTime() {
