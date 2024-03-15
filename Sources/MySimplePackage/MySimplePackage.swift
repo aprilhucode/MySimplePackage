@@ -1,6 +1,8 @@
-public struct MySimplePackage {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public struct MySimplePackage {
+
+    public static func logTime() {
+        print("MySimplePackage: The time is \(Date())")
     }
 }
